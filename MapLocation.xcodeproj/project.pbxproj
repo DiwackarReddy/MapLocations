@@ -11,6 +11,14 @@
 		52D4C56729FFD9B4003C3ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4C56629FFD9B4003C3ABB /* ContentView.swift */; };
 		52D4C56929FFD9B5003C3ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D4C56829FFD9B5003C3ABB /* Assets.xcassets */; };
 		52D4C56C29FFD9B5003C3ABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D4C56B29FFD9B5003C3ABB /* Preview Assets.xcassets */; };
+		52D4C57329FFEAFE003C3ABB /* StoreLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4C57229FFEAFE003C3ABB /* StoreLocator.swift */; };
+		52D4C57529FFEB78003C3ABB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4C57429FFEB78003C3ABB /* MapView.swift */; };
+		52D4C57729FFEC18003C3ABB /* MapPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4C57629FFEC18003C3ABB /* MapPinView.swift */; };
+		52D4C57929FFECC8003C3ABB /* StoreLocatorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4C57829FFECC8003C3ABB /* StoreLocatorData.swift */; };
+		52D4C57B29FFF004003C3ABB /* LocationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4C57A29FFF004003C3ABB /* LocationCardView.swift */; };
+		52D4C57D29FFFC26003C3ABB /* AddressListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4C57C29FFFC26003C3ABB /* AddressListView.swift */; };
+		52D4C57F2A001772003C3ABB /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4C57E2A001772003C3ABB /* LocationViewModel.swift */; };
+		52D4C5812A0019D4003C3ABB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D4C5802A0019D4003C3ABB /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		52D4C56629FFD9B4003C3ABB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52D4C56829FFD9B5003C3ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52D4C56B29FFD9B5003C3ABB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52D4C57229FFEAFE003C3ABB /* StoreLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLocator.swift; sourceTree = "<group>"; };
+		52D4C57429FFEB78003C3ABB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		52D4C57629FFEC18003C3ABB /* MapPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPinView.swift; sourceTree = "<group>"; };
+		52D4C57829FFECC8003C3ABB /* StoreLocatorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLocatorData.swift; sourceTree = "<group>"; };
+		52D4C57A29FFF004003C3ABB /* LocationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCardView.swift; sourceTree = "<group>"; };
+		52D4C57C29FFFC26003C3ABB /* AddressListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListView.swift; sourceTree = "<group>"; };
+		52D4C57E2A001772003C3ABB /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		52D4C5802A0019D4003C3ABB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				52D4C56429FFD9B4003C3ABB /* MapLocationApp.swift */,
+				52D4C57229FFEAFE003C3ABB /* StoreLocator.swift */,
+				52D4C57829FFECC8003C3ABB /* StoreLocatorData.swift */,
 				52D4C56629FFD9B4003C3ABB /* ContentView.swift */,
+				52D4C57A29FFF004003C3ABB /* LocationCardView.swift */,
+				52D4C57E2A001772003C3ABB /* LocationViewModel.swift */,
+				52D4C57429FFEB78003C3ABB /* MapView.swift */,
+				52D4C57629FFEC18003C3ABB /* MapPinView.swift */,
+				52D4C5802A0019D4003C3ABB /* Constants.swift */,
+				52D4C57C29FFFC26003C3ABB /* AddressListView.swift */,
 				52D4C56829FFD9B5003C3ABB /* Assets.xcassets */,
 				52D4C56A29FFD9B5003C3ABB /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D4C57B29FFF004003C3ABB /* LocationCardView.swift in Sources */,
 				52D4C56729FFD9B4003C3ABB /* ContentView.swift in Sources */,
+				52D4C57529FFEB78003C3ABB /* MapView.swift in Sources */,
+				52D4C57929FFECC8003C3ABB /* StoreLocatorData.swift in Sources */,
+				52D4C57329FFEAFE003C3ABB /* StoreLocator.swift in Sources */,
+				52D4C5812A0019D4003C3ABB /* Constants.swift in Sources */,
+				52D4C57D29FFFC26003C3ABB /* AddressListView.swift in Sources */,
 				52D4C56529FFD9B4003C3ABB /* MapLocationApp.swift in Sources */,
+				52D4C57F2A001772003C3ABB /* LocationViewModel.swift in Sources */,
+				52D4C57729FFEC18003C3ABB /* MapPinView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
